@@ -8,14 +8,14 @@ html {
   margin: 0;
   padding: 0;
   font-size: 16px;
-  background-color: #f37c75;
+  background-color: rgba(243, 124, 117, 0.7);
 }
 
 .card {
   display: flex;
   border: transparent;
   border-radius: 20px;
-  padding: 200px 0 0 200px;
+  padding: 150px;
 }
 
 .login-panel {
@@ -23,12 +23,12 @@ html {
   color: #fff;
   border-radius: 0 30px 30px 0;
   text-align: center;
-  width: 40%;
+  width: 50%;
   /*box-shadow: 20px 0 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);*/
 }
 
 .pic-panel {
-  width: 40%;
+  width: 50%;
   background-image: url("assets/vector-people.png");
   border-radius: 30px 0 0 30px;
   background-repeat: no-repeat;
@@ -52,19 +52,18 @@ p {
   width: 300px;
   border: transparent;
   color: white;
-  background-position: 300px;
-  background-repeat: no-repeat;
   cursor: pointer;
 }
 
-.custom-input {
+.input {
   height: 45px;
   width: 300px;
   border-radius: 50px;
   border: 1px solid #ffffff;
   background-color: transparent;
   color: #ffffff;
-  transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
+  transition: background-color 0.3s, color 0.3s;
+  /* Add a smooth transition effect */
 
   /* Initial styling for unfocused input */
 }
@@ -84,7 +83,26 @@ p {
   padding-left: 30px;
 }
 
+@media only screen and (max-width: 980px) and (min-width: 280px){
+  html {
+    background-color: #ff4133;
+  }
 
+  .pic-panel {
+    display: none;
+  }
 
+  .login-panel {
+    width: 100%;
+    margin-top: 35%;
+    border-radius: 0;
+  }
 
+  .card {
+    padding: 0;
+  }
+}
 
+@media screen and (max-width: 600px) {
+
+}
