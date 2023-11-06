@@ -63,9 +63,6 @@ p {
   background-color: transparent;
   color: #ffffff;
   transition: background-color 0.3s, color 0.3s;
-  /* Add a smooth transition effect */
-
-  /* Initial styling for unfocused input */
 }
 
 .input:focus {
@@ -73,11 +70,9 @@ p {
   color: #ff4133;
   padding-left: 30px;
   outline: none;
-  /* Styling when the input is focused */
 }
 
 .input:not(:focus) {
-  /* Styling when the input is not focused */
   background-color: transparent;
   color: #ffffff;
   padding-left: 30px;
