@@ -46,7 +46,7 @@ p {
 }
 
 .btn {
-  background-color: #dc2621;
+  background-color: rgba(243, 124, 117, 0.7);
   border-radius: 30px;
   height: 45px;
   width: 300px;
